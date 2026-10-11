@@ -14,8 +14,8 @@ import ZoneAnalytics from './ZoneAnalytics';
 import BinRegistry from './BinRegistry';
 import './MunicipalDashboard.css';
 
-const SOCKET_URL = 'http://localhost:5000';
-const API_URL = 'http://localhost:5000/api/dashboard';
+const SOCKET_URL = 'https://smartbin-backend-api.onrender.com';
+const API_URL = 'https://smartbin-backend-api.onrender.com/api/dashboard';
 
 const MunicipalDashboard = () => {
   const { logout } = React.useContext(AuthContext);

@@ -10,8 +10,8 @@ import {
 import 'leaflet/dist/leaflet.css';
 import './LiveMap.css';
 
-const SOCKET_URL = 'http://localhost:5000';
-const API_URL = 'http://localhost:5000/api/dashboard';
+const SOCKET_URL = 'https://smartbin-backend-api.onrender.com';
+const API_URL = 'https://smartbin-backend-api.onrender.com/api/dashboard';
 
 // Create custom HTML markers displaying live percentages
 const createPercentIcon = (fillLevel, status, sensorStatus) => {

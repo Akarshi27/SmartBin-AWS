@@ -22,7 +22,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const COLORS = ['#3b82f6', '#10b981', '#ef4444'];
-const SOCKET_URL = 'http://localhost:5000';
+const SOCKET_URL = 'https://smartbin-backend-api.onrender.com';
 
 export default function UserDashboard() {
   const { user, logout, login } = useContext(AuthContext);
